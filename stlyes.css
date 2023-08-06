@@ -137,3 +137,35 @@ body {
     order: 2;
   }
   
+  #education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  #education h2 {
+    order: 1;
+  }
+  
+  #education p {
+    order: 2;
+  }
+  
+  #contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  #contacts h2 {
+    order: 1;
+  }
+  
+  #contacts p {
+    order: 2;
+  }
+  
