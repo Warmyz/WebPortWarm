@@ -121,3 +121,19 @@ body {
   .inactive {
     background-color: #88cdf6;
   }
+  #skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  #skills h2 {
+    order: 1;
+  }
+  
+  #skills p {
+    order: 2;
+  }
+  
