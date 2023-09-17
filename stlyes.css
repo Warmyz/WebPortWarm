@@ -49,14 +49,15 @@ body {
   /* ###Content### */
 
   section {
-    height: 1000px;
-    width: 100%;
+    min-height: 100vh; /* ให้ <section> มีความสูงเท่ากับหน้าจอ */
+    width: 100%; /* ให้ <section> ขยายเต็มความกว้างของหน้าจอ */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    text-align: center; /* เพิ่ม text-align: center เพื่อจัดข้อความใน section อยู่ตรงกลาง */
+    text-align: center;
 }
+
 @media (max-width: 767px) {
   section {
       width: 100%; /* ขยายความกว้างให้เต็มขอบจอ */
