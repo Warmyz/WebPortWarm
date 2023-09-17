@@ -54,7 +54,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-  }
+    text-align: center; /* เพิ่ม text-align: center เพื่อจัดข้อความใน section อยู่ตรงกลาง */
+}
 
   /* Add the background image to the desired section */
   #home {
@@ -119,7 +120,7 @@ body {
     color: #fff; /* Text color for the button */
     border: none;
     transform: scale(1.2);
-    border-radius: 5px;
+    border-radius: 500px;
     cursor: pointer;
     transition: .5s;
   }
@@ -189,7 +190,7 @@ body {
     order: 2;
   }
   
-  #contacts {
+  #Certificate {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,11 +198,11 @@ body {
     font-size: 24px;
   }
   
-  #contacts h2 {
+  #Certificate h2 {
     order: 1;
   }
   
-  #contacts p {
+  #Certificate p {
     order: 2;
   }
   
