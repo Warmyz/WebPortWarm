@@ -57,7 +57,11 @@ body {
     font-size: 24px;
     text-align: center; /* เพิ่ม text-align: center เพื่อจัดข้อความใน section อยู่ตรงกลาง */
 }
-
+    @media screen and (max-width: 768px) {
+      section {
+          height: auto; /* ปรับสูงของ section เป็น auto เมื่ออุปกรณ์เป็นมือถือ */
+      }
+    }
   /* Add the background image to the desired section */
   #home {
     color: #000000; /* Set text color for better visibility */
