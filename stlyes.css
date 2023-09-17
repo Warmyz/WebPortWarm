@@ -58,10 +58,6 @@ body {
     text-align: center;
 }
 
-@media (max-width: 767px) {
-  section {
-      width: 100%; /* ขยายความกว้างให้เต็มขอบจอ */
-  }
 }
   /* Add the background image to the desired section */
   #home {
@@ -97,6 +93,18 @@ body {
     transition: .5s;
     font-size: 150px; /* ขยายขนาดข้อความเมื่อโฮเวอร์ */
 }
+@media (max-width: 768px) { /* ปรับขนาดสไตล์สำหรับหน้าจอขนาดน้อยกว่าหรือเท่ากับ 768px */
+  #home a {
+    padding: 50px 100px; /* ปรับขนาดของ padding สำหรับข้อความและปุ่ม */
+    font-size: 50px; /* ปรับขนาดข้อความ */
+  }
+
+  #home a:hover {
+    padding: 100px 100px; /* ปรับขนาด padding ขณะโฮเวอร์ */
+    font-size: 50px; /* ปรับขนาดข้อความขณะโฮเวอร์ */
+  }
+}
+
 
   img {
     max-width: 100%;
