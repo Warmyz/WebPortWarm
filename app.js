@@ -11,7 +11,7 @@ function typeWriter(element, text, index, speed) {
 }
 
 // Typing effect on rackroll_ text
-const rickrolling = "Warakorn Kornpongkun";
+const rickrolling = "W";
 typeWriter(warm, rickrolling, 0, 50);
 
 const sections = document.querySelectorAll('section');
